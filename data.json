@@ -1,0 +1,159 @@
+{
+    "selectedTemplate": 1,
+    "headings": {
+        "skills": "",
+        "projects": "",
+        "awards": "",
+        "work": "Employment"
+    },
+    "basics": {
+        "email": "ih.diachenko@gmail.com",
+        "phone": "+380913088044",
+        "location": {
+            "address": "Kharkiv, Ukraine"
+        },
+        "name": "Ihor Diachenko",
+        "website": "https://github.com/ihordiachenko"
+    },
+    "education": [
+        {
+            "studyType": "BS",
+            "gpa": "",
+            "institution": "National Aerospace University “KhAI”,",
+            "location": "Kharkiv, Ukraine",
+            "area": "Security of Information and Communication Networks",
+            "endDate": "Jun 2018",
+            "startDate": "Sep 2012"
+        }
+    ],
+    "work": [
+        {
+            "highlights": [
+                "Implemented API for aggregate queries against tens of millions of NFT trades with <1s latency.",
+                "Optimized an NFT metadata ingestion pipeline to have a 50x higher throughput.",
+                "Implemented a cross-chain relay service that supports EVM-compatible chains, Solana and Near.",
+                "Improved code review process to help with a 2-months deep backlog of pull requests."
+            ],
+            "company": "Rarify - NFT Data API, Cross-Chain Bridging ",
+            "position": "Senior Software Engineer",
+            "location": "Ukraine(Remote)",
+            "endDate": "Present",
+            "startDate": "April 2022"
+        },
+        {
+            "location": "Kharkiv, Ukraine",
+            "website": "",
+            "endDate": "Present",
+            "highlights": [
+                "Managed a cross-functional team of up to 8 engineers. Facilitated communication between stakeholders, external contractors, and the team.",
+                "Guided implementation of event-driven, multi-tenant microservice architecture. This design enabled the rapid development of 7 different products and painless integration of 15+ external data sources.",
+                "Built and contributed to several microservices written in Golang, including payments processor, web scrappers, auth, notifications, CRM, etc.",
+                "Designed and implemented a rule-based ranking algorithm for a catalog of used vehicles that helped to increase engagement by 52%.",
+                "Migrated 60+ deployments from a legacy self-hosted Kubernetes cluster to AWS EKS.",
+                "Cut monthly AWS bill by 50% by auditing the usage and implementing best practices.",
+                "Contributed to the development of client-facing and back-office  Vue.js web apps. Implemented shared libraries and tooling for front-end engineers.",
+                "Boosted the performance of the front-end from 15/100 PageSpeed Insights points to 95/100."
+            ],
+            "company": "Shelf.Network – Marketplace for cross border vehicle trades",
+            "position": "Tech Lead",
+            "startDate": "June 2018"
+        },
+        {
+            "highlights": [
+                "Built an MVP app that helped to secure the seed funding round. ",
+                "Created a node.js backend for frontend apps with complex KYC flows, various payment types, and dashboards. ",
+                "Hardened security in preparation for an external audit. Implemented OWASP Top 10 recommendations.",
+                "Mentored trainees and junior developers."
+            ],
+            "location": "Kharkiv, Ukraine",
+            "company": "Hufsy – German neobank for enterpreneurs & freelancers",
+            "position": "Software Engineer",
+            "startDate": "March 2016",
+            "endDate": "June 2018"
+        },
+        {
+            "highlights": [
+                "Created backend for a distributed land auction based on Stellar blockchain.",
+                "Created a REST API for an open-source payment settlement product.",
+                "Advocated for company-wide adoption of automated integration tests.",
+                "Implemented cross-platform cryptographic libraries for key derivation."
+            ],
+            "company": "Distributed Lab – Custom blockchain solutions",
+            "position": "Junior Software Engineer",
+            "location": "Kharkiv, Ukraine",
+            "startDate": "October 2015",
+            "endDate": "March 2016"
+        }
+    ],
+    "skills": [
+        {
+            "level": "",
+            "keywords": [
+                "Golang",
+                "TypeScript",
+                "Node.js",
+                "Rust",
+                "PostgreSQL",
+                "Apache Kafka",
+                "Redis",
+                "Puppeteer"
+            ],
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "JavaScript",
+                "HTML+CSS",
+                "Vue.js",
+                "Jest",
+                "Chai",
+                "Mocha"
+            ],
+            "name": "Frontend"
+        },
+        {
+            "keywords": [
+                "Kubernetes",
+                "Docker",
+                "Helm",
+                "AWS CDK",
+                "GitLab CI"
+            ],
+            "name": "DevOps"
+        },
+        {
+            "keywords": [
+                "Cryptocurrencies",
+                "Applied Cryptography"
+            ],
+            "name": "Other"
+        }
+    ],
+    "projects": [
+        {
+            "name": "",
+            "description": "",
+            "url": "",
+            "keywords": [
+                ""
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "",
+            "date": "",
+            "awarder": "",
+            "summary": ""
+        }
+    ],
+    "sections": [
+        "templates",
+        "profile",
+        "work",
+        "skills",
+        "education",
+        "projects",
+        "awards"
+    ]
+}
