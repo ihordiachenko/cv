@@ -29,12 +29,13 @@
     "work": [
         {
             "highlights": [
+                "Worked closely with the biz-dev team to design and implement integrations for 5+ clients.",
+                "Implemented a cross-chain relay service that supports EVM-compatible chains, Solana and Near.",
                 "Implemented API for aggregate queries against tens of millions of NFT trades with <1s latency.",
                 "Optimized an NFT metadata ingestion pipeline to have a 50x higher throughput.",
-                "Implemented a cross-chain relay service that supports EVM-compatible chains, Solana and Near.",
                 "Improved code review process to help with a 2-months deep backlog of pull requests."
             ],
-            "company": "Rarify - NFT Data API, Cross-Chain Bridging ",
+            "company": "Rarify Labs - Self-Sovereign Identity, Cross-Chain Bridging, NFT Data API",
             "position": "Senior Software Engineer",
             "location": "Ukraine(Remote)",
             "endDate": "Present",
