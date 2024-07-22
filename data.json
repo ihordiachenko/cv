@@ -1,160 +1,189 @@
 {
-    "selectedTemplate": 1,
-    "headings": {
-        "skills": "",
-        "projects": "",
-        "awards": "",
-        "work": "Employment"
+  "selectedTemplate": 1,
+  "headings": {
+    "skills": "",
+    "projects": "",
+    "awards": "",
+    "work": "Employment"
+  },
+  "basics": {
+    "email": "ih.diachenko@gmail.com",
+    "phone": "+380913088044",
+    "location": {
+      "address": "Ivano-Frankivsk, Ukraine"
     },
-    "basics": {
-        "email": "ih.diachenko@gmail.com",
-        "phone": "+380913088044",
-        "location": {
-            "address": "Kharkiv, Ukraine"
-        },
-        "name": "Ihor Diachenko",
-        "website": "https://github.com/ihordiachenko"
+    "name": "Ihor Diachenko",
+    "website": "https://github.com/ihordiachenko"
+  },
+  "education": [
+    {
+      "studyType": "BS",
+      "gpa": "",
+      "institution": "National Aerospace University “KhAI”",
+      "location": "Kharkiv, Ukraine",
+      "area": "Security of Information and Communication Networks",
+      "endDate": "Jun 2018",
+      "startDate": "Sep 2012"
+    }
+  ],
+  "work": [
+    {
+      "highlights": [
+        "Identified weaknesses in existing developer documentation and outlined a plan to enhance its quality and improve developer experience. Led a team of 2 technical writers, a UX designer, a front-end developer, and a QA specialist to create and successfully launch a developer portal.",
+        "Secured collaborations with 8 industry leaders including MetaMask, WorldCoin and Polygon ID",
+        "As a product owner and individual contributor, led the creation of a MetaMask extension ('snap') implementing a self-sovereign identity protocol with zero-knowledge proofs. The extension achieved 100,000+ downloads.",
+        "Co-authored a technical whitepaper on an innovative privacy-focused social protocol utilizing zero-knowledge proofs.",
+        "Drafted a cross-chain bridging solution that received a 23,000 WLD grant from the WorldCoin Foundation.",
+        "Represented the company at ETH London 2023 Hackathon. Created three challenges for participants and mentored over 10 teams.",
+        "Wrote and co-authored over 10 technical blog posts and articles."
+      ],
+      "company": "Rarilabs(formely Rarify Labs) - Open-Source ZK Social Protocol, Self-Sovereign Identity",
+      "position": "DevRel Lead",
+      "location": "Remote(based in Ukraine)",
+      "startDate": "Sep 2023",
+      "endDate": "Present"
     },
-    "education": [
-        {
-            "studyType": "BS",
-            "gpa": "",
-            "institution": "National Aerospace University “KhAI”,",
-            "location": "Kharkiv, Ukraine",
-            "area": "Security of Information and Communication Networks",
-            "endDate": "Jun 2018",
-            "startDate": "Sep 2012"
-        }
-    ],
-    "work": [
-        {
-            "highlights": [
-                "Worked closely with the biz-dev team to design and implement integrations for 5+ clients.",
-                "Implemented a cross-chain relay service that supports EVM-compatible chains, Solana and Near.",
-                "Implemented API for aggregate queries against tens of millions of NFT trades with <1s latency.",
-                "Optimized an NFT metadata ingestion pipeline to have a 50x higher throughput.",
-                "Improved code review process to help with a 2-months deep backlog of pull requests."
-            ],
-            "company": "Rarify Labs - Self-Sovereign Identity, Cross-Chain Bridging, NFT Data API",
-            "position": "Senior Software Engineer",
-            "location": "Ukraine(Remote)",
-            "endDate": "Present",
-            "startDate": "April 2022"
-        },
-        {
-            "location": "Kharkiv, Ukraine",
-            "website": "",
-            "endDate": "Present",
-            "highlights": [
-                "Managed a cross-functional team of up to 8 engineers. Facilitated communication between stakeholders, external contractors, and the team.",
-                "Guided implementation of event-driven, multi-tenant microservice architecture. This design enabled the rapid development of 7 different products and painless integration of 15+ external data sources.",
-                "Built and contributed to several microservices written in Golang, including payments processor, web scrappers, auth, notifications, CRM, etc.",
-                "Designed and implemented a rule-based ranking algorithm for a catalog of used vehicles that helped to increase engagement by 52%.",
-                "Migrated 60+ deployments from a legacy self-hosted Kubernetes cluster to AWS EKS.",
-                "Cut monthly AWS bill by 50% by auditing the usage and implementing best practices.",
-                "Contributed to the development of client-facing and back-office  Vue.js web apps. Implemented shared libraries and tooling for front-end engineers.",
-                "Boosted the performance of the front-end from 15/100 PageSpeed Insights points to 95/100."
-            ],
-            "company": "Shelf.Network – Marketplace for cross border vehicle trades",
-            "position": "Tech Lead",
-            "startDate": "June 2018"
-        },
-        {
-            "highlights": [
-                "Built an MVP app that helped to secure the seed funding round. ",
-                "Created a node.js backend for frontend apps with complex KYC flows, various payment types, and dashboards. ",
-                "Hardened security in preparation for an external audit. Implemented OWASP Top 10 recommendations.",
-                "Mentored trainees and junior developers."
-            ],
-            "location": "Kharkiv, Ukraine",
-            "company": "Hufsy – German neobank for enterpreneurs & freelancers",
-            "position": "Software Engineer",
-            "startDate": "March 2016",
-            "endDate": "June 2018"
-        },
-        {
-            "highlights": [
-                "Created backend for a distributed land auction based on Stellar blockchain.",
-                "Created a REST API for an open-source payment settlement product.",
-                "Advocated for company-wide adoption of automated integration tests.",
-                "Implemented cross-platform cryptographic libraries for key derivation."
-            ],
-            "company": "Distributed Lab – Custom blockchain solutions",
-            "position": "Junior Software Engineer",
-            "location": "Kharkiv, Ukraine",
-            "startDate": "October 2015",
-            "endDate": "March 2016"
-        }
-    ],
-    "skills": [
-        {
-            "level": "",
-            "keywords": [
-                "Golang",
-                "TypeScript",
-                "Node.js",
-                "Rust",
-                "PostgreSQL",
-                "Apache Kafka",
-                "Redis",
-                "Puppeteer"
-            ],
-            "name": "Backend"
-        },
-        {
-            "keywords": [
-                "JavaScript",
-                "HTML+CSS",
-                "Vue.js",
-                "Jest",
-                "Chai",
-                "Mocha"
-            ],
-            "name": "Frontend"
-        },
-        {
-            "keywords": [
-                "Kubernetes",
-                "Docker",
-                "Helm",
-                "AWS CDK",
-                "GitLab CI"
-            ],
-            "name": "DevOps"
-        },
-        {
-            "keywords": [
-                "Cryptocurrencies",
-                "Applied Cryptography"
-            ],
-            "name": "Other"
-        }
-    ],
-    "projects": [
-        {
-            "name": "",
-            "description": "",
-            "url": "",
-            "keywords": [
-                ""
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "",
-            "date": "",
-            "awarder": "",
-            "summary": ""
-        }
-    ],
-    "sections": [
-        "templates",
-        "profile",
-        "work",
-        "skills",
-        "education",
-        "projects",
-        "awards"
-    ]
+    {
+      "highlights": [
+        "Worked closely with the biz-dev team to design and implement integrations for 5+ clients.",
+        "Implemented a cross-chain relay service that supports EVM-compatible chains, Solana and Near.",
+        "Implemented API for aggregate queries against tens of millions of NFT trades with <1s latency.",
+        "Optimized an NFT metadata ingestion pipeline to have a 50x higher throughput.",
+        "Improved code review process to help with a 2-months deep backlog of pull requests.",
+        "Led a zero-knowledge Proof of Humanity project as Product Owner: created initial spec, managed customer communications and support, optimized UX based on feedback, and integrated into 4 popular platforms, achieving 1000+ users.",
+        "Led the development of a Polygon ID scaling solution: created a spec for cost-efficient usage of identity proofs on any EVM-compatible chain, managed communications with the Polygon ID technical team, and assisted 2 customers with integration."
+      ],
+      "company": "Rarilabs(formely Rarify Labs) - Self-Sovereign Identity, Cross-Chain Bridging, NFT Data API",
+      "position": "Senior Software Engineer",
+      "location": "Remote(based in Ukraine)",
+      "endDate": "Sep 2023",
+      "startDate": "April 2022"
+    },
+    {
+      "location": "Kharkiv, Ukraine",
+      "website": "",
+      "endDate": "April 2022",
+      "highlights": [
+        "Managed a cross-functional team of up to 8 engineers. Facilitated communication between stakeholders, external contractors, and the team.",
+        "Guided implementation of event-driven, multi-tenant microservice architecture. This design enabled the rapid development of 7 different products and painless integration of 15+ external data sources.",
+        "Built and contributed to several microservices written in Golang, including payments processor, web scrappers, auth, notifications, CRM, etc.",
+        "Designed and implemented a rule-based ranking algorithm for a catalog of used vehicles that helped to increase engagement by 52%.",
+        "Migrated 60+ deployments from a legacy self-hosted Kubernetes cluster to AWS EKS.",
+        "Cut monthly AWS bill by 50% by auditing the usage and implementing best practices.",
+        "Contributed to the development of client-facing and back-office  Vue.js web apps. Implemented shared libraries and tooling for front-end engineers.",
+        "Boosted the performance of the front-end from 15/100 PageSpeed Insights points to 95/100."
+      ],
+      "company": "Shelf.Network – Marketplace for cross border vehicle trades",
+      "position": "Tech Lead",
+      "startDate": "June 2018"
+    },
+    {
+      "highlights": [
+        "Built an MVP app that helped to secure the seed funding round. ",
+        "Created a node.js backend for frontend apps with complex KYC flows, various payment types, and dashboards. ",
+        "Hardened security in preparation for an external audit. Implemented OWASP Top 10 recommendations.",
+        "Mentored trainees and junior developers."
+      ],
+      "location": "Kharkiv, Ukraine",
+      "company": "Hufsy – German neobank for enterpreneurs & freelancers",
+      "position": "Software Engineer",
+      "startDate": "March 2016",
+      "endDate": "June 2018"
+    },
+    {
+      "highlights": [
+        "Created backend for a distributed land auction based on Stellar blockchain.",
+        "Created a REST API for an open-source payment settlement product.",
+        "Advocated for company-wide adoption of automated integration tests.",
+        "Implemented cross-platform cryptographic libraries for key derivation."
+      ],
+      "company": "Distributed Lab – Custom blockchain solutions",
+      "position": "Junior Software Engineer",
+      "location": "Kharkiv, Ukraine",
+      "startDate": "October 2015",
+      "endDate": "March 2016"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Expert in technical writing",
+        "Expert in written content creation",
+        "Expert in communication with developers and customer support",
+        "Proficient in community management"
+      ],
+      "name": "Developer Relations"
+    },
+    {
+      "keywords": [
+        "Golang",
+        "TypeScript",
+        "Node.js",
+        "Rust",
+        "PostgreSQL",
+        "Apache Kafka",
+        "Redis",
+        "Puppeteer"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "Expert understanding of blockchain technology",
+        "Proficient in applied cryptography",
+        "Novice experience with zero-knowledge proofs",
+        "Novice experience with Solidity"
+      ],
+      "name": "Blockchain Tech"
+    },
+    {
+      "keywords": [
+        "JavaScript",
+        "HTML+CSS",
+        "Vue.js",
+        "Jest",
+        "Chai",
+        "Mocha"
+      ],
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "AWS CDK",
+        "GitLab CI",
+        "GitHub Actions"
+      ],
+      "name": "DevOps"
+    }
+  ],
+  "projects": [
+    {
+      "name": "eslint-plugin-chai-friendly",
+      "description": "Developed an open-source ESLint plugin that addresses a common pain point, achieving over 1.3M downloads per month. The plugin is utilized by companies such as Microsoft, Stripe, IBM, Protonmail, and Overleaf.",
+      "url": "https://github.com/ihordiachenko/eslint-plugin-chai-friendly",
+      "keywords": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "education",
+    "projects",
+    "awards"
+  ]
 }
