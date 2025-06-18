@@ -17,6 +17,14 @@
   },
   "education": [
     {
+      "institution": "Ira A. Fulton Schools of Engineering at Arizona State University",
+      "location": "Tempe, Arizona",
+      "studyType": "MS",
+      "area": "Master in Engineering Science (Software Engineering, MSE)",
+      "startDate": "Jun 2025",
+      "endDate": "Present"
+    },
+    {
       "institution": "American University Kyiv",
       "location": "Kyiv, Ukraine",
       "studyType": "MS",
@@ -37,17 +45,20 @@
   "work": [
     {
       "highlights": [
-        "Identified weaknesses in existing developer documentation and outlined a plan to enhance its quality and improve developer experience. Led a team of 2 technical writers, a UX designer, a front-end developer, and a QA specialist to create and successfully launch a developer portal.",
-        "Secured collaborations with 8 industry leaders including MetaMask, WorldCoin and Polygon ID",
-        "As a product owner and individual contributor, led the creation of a MetaMask extension ('snap') implementing a self-sovereign identity protocol with zero-knowledge proofs. The extension achieved 100,000+ downloads.",
-        "Co-authored a technical whitepaper of an innovative privacy-focused social protocol utilizing zero-knowledge proofs.",
+        "Designed and launched the Bionetta ZKML early-access program, onboarding 15+ builders",
+        "Partnered with BizDev to onboard builders and draft technical solutions for 12 top partners, including Vitalik Buterin, Worldcoin, and MetaMask.",
+        "Closely collaborated with an early adopter and internal tech team to to implement and refine ZK Passport APIs and UX.",
+        "Diagnosed gaps in dev docs, crafted an enhancement roadmap, and led a cross-functional team (2 tech writers, UX, front-end, QA) to ship a new developer portal that elevated developer experience.",
+        "Wrote and co-authored over 10 technical blog posts and articles, and produced long-form technical content for the company's Twitter account.",
+        "Hosted two hands-on ZK Registry workshops, delivering two demo DApps ",
+        "Led development of a MetaMask Snap for self-sovereign identity via zero-knowledge proofs, achieving 7k installs.",
         "Drafted a cross-chain bridging solution that received a 23,000 WLD grant from the WorldCoin Foundation.",
-        "Represented the company at ETH London 2023 Hackathon. Created three challenges for participants and mentored over 10 teams.",
-        "Wrote and co-authored over 10 technical blog posts and articles."
+        "Co-authored a technical whitepaper of an innovative privacy-focused social protocol utilizing zero-knowledge proofs.",
+        "Represented the company at ETH London 2023 Hackathon. Created three challenges for participants and mentored over 10 teams."
       ],
-      "company": "Rarilabs(formely Rarify Labs) - Open-Source ZK Social Protocol, Self-Sovereign Identity",
-      "position": "DevRel Lead",
-      "location": "Remote(based in Ukraine)",
+      "company": "Rarilabs - Permissionless ZK Idenities, Client-Side ZKML",
+      "position": "DevRel Lead, Contributor to Rarimo Protocol",
+      "location": "Remote",
       "startDate": "Sep 2023",
       "endDate": "Present"
     },
@@ -58,12 +69,12 @@
         "Implemented API for aggregate queries against tens of millions of NFT trades with <1s latency.",
         "Optimized an NFT metadata ingestion pipeline to have a 50x higher throughput.",
         "Improved code review process to help with a 2-months deep backlog of pull requests.",
-        "Led a zero-knowledge Proof of Humanity project as Product Owner: created initial spec, managed customer communications and support, optimized UX based on feedback, and integrated into 4 popular platforms, achieving 1000+ users.",
-        "Led the development of a Polygon ID scaling solution: created a spec for cost-efficient usage of identity proofs on any EVM-compatible chain, managed communications with the Polygon ID technical team, and assisted 2 customers with integration."
+        "Product Owner for ZK Proof-of-Humanity: authored the spec, led customer comms & support, refined UX from feedback, and integrated with four major platforms, attracting 1 000+ users.",
+        "Developed a Polygon ID scaling solution: authored a cost-efficient cross-EVM spec, coordinated with Polygon ID engineers, and guided two customers through integration."
       ],
-      "company": "Rarilabs(formely Rarify Labs) - Self-Sovereign Identity, Cross-Chain Bridging, NFT Data API",
-      "position": "Senior Software Engineer",
-      "location": "Remote(based in Ukraine)",
+      "company": "Rarilabs - Self-Sovereign Identity, Cross-Chain Bridging, NFT Data API",
+      "position": "Senior Software Engineer, Contributor to Rarimo Protocol",
+      "location": "Remote",
       "endDate": "Sep 2023",
       "startDate": "April 2022"
     },
@@ -169,7 +180,7 @@
   "projects": [
     {
       "name": "eslint-plugin-chai-friendly",
-      "description": "Developed an open-source ESLint plugin that addresses a common pain point, achieving over 1.3M downloads per month. The plugin is utilized by companies such as Microsoft, Stripe, IBM, Protonmail, and Overleaf.",
+      "description": "Developed an open-source ESLint plugin that addresses a common pain point, achieving over 1.7M downloads per month. The plugin is utilized by companies such as Microsoft, Stripe, IBM, Protonmail, and Overleaf.",
       "url": "https://github.com/ihordiachenko/eslint-plugin-chai-friendly",
       "keywords": [
         ""
